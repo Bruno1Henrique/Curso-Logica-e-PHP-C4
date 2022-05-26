@@ -1,0 +1,42 @@
+SE em VisualG
+var
+estoque, venda, resultado:inteiro
+inicio
+escreva("Digite a quantidade em estoque: ")
+leia(estoque)
+escreva("Digite quantos você vendeu: ")
+leia(venda)
+resultado <- estoque - venda
+se resultado < 0 entao
+escreva("Valor negativo, confira novamente")
+senao
+escreva("O estoque atual é:", resultado)
+fimse
+fimalgoritmo
+
+ESCOLHA em visualg
+var
+info:caractere
+inicio
+escreva("Digite o item deseja pesquisar: Intel, AMD, Notebook e Desktop: ")
+leia(info)
+
+escolha info
+caso "Intel"
+escreva("Core i7 Microprocessador Intel Core i7 é uma família de processadores")
+escreva("Intel para desktop e notebooks x86-64.")
+
+caso "AMD"
+escreval("AMD Advanced Micro Devices, Inc. é uma empresa norte-americana")
+escreva("fabricante de circuitos integrados, especialmente processadores.")
+
+caso "Notebook"
+escreval("Notebook Um Laptop, no Brasil, também denominado notebook sem ")
+escreva("levar em consideração que a palavra signifique caderno.")
+
+caso "Desktop"
+escreval("Desktop Um computador pessoal ou PC é um computador de pequeno porte")
+escreva("e baixo custo,por um pequeno grupo de indivíduos. ")
+
+
+fimescolha
