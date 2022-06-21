@@ -11,3 +11,4 @@ Diretório para guardar os arquivos das aulas de PHP e lógica
  * Essas mesmas funções em PHP fazendo a configuração do formulário de um site;
  * Ligamos uma tela de login a um banco de dados (MYSQL).
   
+Curso disponível em: https://www.udemy.com/course/php-do-basico-ao-intermediario/learn/lecture/6990294?start=75#overview
